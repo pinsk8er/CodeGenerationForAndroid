@@ -4,7 +4,7 @@ Install
 1. settings>plugins
 ![](ReadmeRes/install.png)
 
-1. select file
+1. select file  
 ![](ReadmeRes/select_file.png)
 
 1. restart android studio
@@ -18,8 +18,8 @@ Setting
     * Type Name : key (can not overlap)
     * Calss Last Name : Default Class Last Name 
         ex> Last Name is 'Activity' -> XXXXActivity
-    * File Type : select file type
-    ![](ReadmeRes/setting_2.png)
+    * File Type : select file type.    
+      ![](ReadmeRes/setting_2.png)
 
 
 TAG INFO 
@@ -68,12 +68,12 @@ Excute
 ======
 
 * Action (Xml or Java)
-    + Alt + Insert
+    + Alt + Insert  
         ![](ReadmeRes/action_1.png)
-    + mouse left button click 
+    + mouse left button click   
         ![](ReadmeRes/action_2.png) => ![](ReadmeRes/action_1.png)
 
-* Make File Dialog
+* Make File Dialog  
     ![](ReadmeRes/make_code.png)
-    + select package
+    + select package  
         ![](ReadmeRes/select_package.png)
