@@ -68,12 +68,12 @@ Excute
 ======
 
 * Action (Xml or Java)
-    * Alt + Insert
+    + Alt + Insert
         ![](ReadmeRes/action_1.png)
-    * mouse left button click 
+    + mouse left button click 
         ![](ReadmeRes/action_2.png) => ![](ReadmeRes/action_1.png)
 
 * Make File Dialog
     ![](ReadmeRes/make_code.png)
-    * select package
+    + select package
         ![](ReadmeRes/select_package.png)
