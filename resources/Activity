@@ -1,0 +1,25 @@
+package $PACKAGE;
+
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+
+
+$IMPORTS
+
+public class $CLASSNAME extends AppCompatActivity{
+
+    $MEMBER_VARIABLE
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView($LAYOUT_ID);
+        initView();
+    }
+
+    private void initView()
+    {
+        $FIND_VIEW
+    }
+
+}

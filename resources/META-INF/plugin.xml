@@ -1,0 +1,45 @@
+<idea-plugin version="2">
+  <id>com.pin.hobby.cga.plugin</id>
+  <name>Custom Code Generate for Android</name>
+  <version>1.1</version>
+  <vendor email="bianmint@gmail.com" url=""></vendor>
+
+  <description><![CDATA[
+      Custom Code Generate for Android <br>
+    ]]></description>
+
+  <change-notes><![CDATA[
+      1. create <br>
+    ]]>
+  </change-notes>
+
+  <idea-version since-build="141.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+    <applicationService serviceInterface="pin.hobby.cga.setting.SettingService"
+                    serviceImplementation="pin.hobby.cga.setting.SettingService"/>
+
+    <applicationConfigurable
+      instance="pin.hobby.cga.config.CCGAConfig"/>
+
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+    <action id="PINANDROI_CODE_GENERATE" class="pin.hobby.cga.action.CCGAAction"
+            text="Custom Code Generate for Android" description="Code generate for android">
+      <add-to-group group-id="GenerateGroup" anchor="before" relative-to-action="XmlGenerateToolsGroup" />
+      <!--<abbreviation value="xml|java"/>-->
+
+    </action>
+
+  </actions>
+
+</idea-plugin>

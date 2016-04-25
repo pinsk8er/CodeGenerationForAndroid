@@ -1,0 +1,36 @@
+package $PACKAGE;
+
+import android.content.Context;
+import android.util.AttributeSet;
+import android.widget.FrameLayout;
+
+$IMPORTS
+
+public class $CLASSNAME extends FrameLayout{
+
+    $MEMBER_VARIABLE
+
+    public $CLASSNAME (Context context) {
+        super(context);
+        init(null);
+    }
+
+    public $CLASSNAME (Context context, AttributeSet attrs) {
+        super(context, attrs);
+        init(attrs);
+    }
+
+    public $CLASSNAME (Context context, AttributeSet attrs, int defStyleAttr) {
+        super(context, attrs, defStyleAttr);
+        init(attrs);
+    }
+
+    private void init(AttributeSet attrs)
+    {
+        inflate(getContext(), $LAYOUT_ID, this);
+
+        $FIND_VIEW
+
+    }
+
+}

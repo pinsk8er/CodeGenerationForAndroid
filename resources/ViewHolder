@@ -1,0 +1,22 @@
+package $PACKAGE;
+
+import android.support.v7.widget.RecyclerView;
+import android.view.View;
+
+$IMPORTS
+
+public class $CLASSNAME extends RecyclerView.ViewHolder{
+    static final int LAYOUT_ID = $LAYOUT_ID;
+
+    $MEMBER_VARIABLE
+
+    public $CLASSNAME (View itemView) {
+        super(itemView);
+        initView(itemView);
+    }
+
+    private void initView(View v)
+    {
+        $FIND_VIEW(v)
+    }
+}
