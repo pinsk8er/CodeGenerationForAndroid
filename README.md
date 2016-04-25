@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Install
 =======
 1. settings>plugins
@@ -76,3 +77,7 @@ Excute
     ![](ReadmeRes/make_code.png)
     * select package
         ![](ReadmeRes/select_package.png)
+=======
+# CodeGenerationForAndroid
+Custom code generation for android
+>>>>>>> 996bb2161d2601e289fceeb691d83874db0b2431
