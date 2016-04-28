@@ -4,7 +4,7 @@ Install
 1. Settings > Plugins
 ![](ReadmeRes/install.png)
 
-1. Select File
+1. Select File  
 ![](ReadmeRes/select_file.png)
 
 1. Restart Android Studio
