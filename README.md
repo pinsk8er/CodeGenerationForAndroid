@@ -1,20 +1,20 @@
 
 Install
 =======
-1. settings>plugins
+1. Settings > Plugins
 ![](ReadmeRes/install.png)
 
-1. select file  
+1. Select File
 ![](ReadmeRes/select_file.png)
 
-1. restart android studio
+1. Restart Android Studio
 
-Setting
-=======
-1. code setting
+Settings
+========
+1. Code Setting
 ![](ReadmeRes/setting_1.png)
 
-1. add type
+1. Add Type
     * Type Name : key (can not overlap)
     * Calss Last Name : Default Class Last Name 
         ex> Last Name is 'Activity' -> XXXXActivity
@@ -64,16 +64,17 @@ TAG INFO
 * Select File Type 'JAVA'
     >+ $TAGET_CLASSNAME : Select File Class Name
 
+
 Excute
 ======
 
 * Action (Xml or Java)
     + Alt + Insert  
         ![](ReadmeRes/action_1.png)
-    + mouse left button click   
+    + Mouse left button click   
         ![](ReadmeRes/action_2.png) => ![](ReadmeRes/action_1.png)
 
 * Make File Dialog  
     ![](ReadmeRes/make_code.png)
-    + select package  
+    + Select package  
         ![](ReadmeRes/select_package.png)
