@@ -6,7 +6,7 @@ import android.view.View;
 $IMPORTS
 
 public class $CLASSNAME extends RecyclerView.ViewHolder{
-    static final int LAYOUT_ID = $LAYOUT_ID;
+    static public final int LAYOUT_ID = $LAYOUT_ID;
 
     $MEMBER_VARIABLE
 

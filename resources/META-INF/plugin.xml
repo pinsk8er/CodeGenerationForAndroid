@@ -37,7 +37,6 @@
             text="Custom Code Generate for Android" description="Code generate for android">
       <add-to-group group-id="GenerateGroup" anchor="before" relative-to-action="XmlGenerateToolsGroup" />
       <!--<abbreviation value="xml|java"/>-->
-
     </action>
 
   </actions>

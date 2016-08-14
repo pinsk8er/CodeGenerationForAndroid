@@ -69,8 +69,9 @@ public class CCGAXmlParser extends CCGAParser {
 
 
             if(containId) {
-                if (!checkImport(packageName)) {
-                    addDataInDes(CCGAType.CGAType_Imports, "import "+packageName+";\n");
+                String packageStr = "import "+packageName+";\n";
+                if (!checkImport(packageStr)) {
+                    addDataInDes(CCGAType.CGAType_Imports, packageStr);
                 }
             }
 
